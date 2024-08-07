@@ -1,6 +1,6 @@
 * {
   background-color: #000000;
-  color: white;
+  color: #FFFFFF;
   font-family: sans-serif;
 }
 
@@ -30,4 +30,34 @@ header nav ul li a {
   margin: 0 10px;
   text-decoration: none;
   color: #C7C7C7;
+}
+
+main {
+  margin: 0 108px;
+}
+main h1 {
+  font-size: 60px;
+  margin-bottom: 0;
+}
+
+main p {
+  color: #C7C7C7;
+}
+
+#hello {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 60px;
+}
+
+#btns a {
+  margin-right: 16px;
+}
+
+#hello img {
+  border-radius: 16px;
+}
+
+hr {
+  color: #484848;
 }
