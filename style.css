@@ -4,6 +4,12 @@
   font-family: sans-serif;
 }
 
+hr {
+  border: solid 1px #C7C7C7;
+  width: 100%;
+  margin: 0;
+}
+
 header {
   display: flex;
   height: 96px;
@@ -32,9 +38,10 @@ header nav ul li a {
   color: #C7C7C7;
 }
 
-main {
-  margin: 0 108px;
+header nav ul li a:hover {
+  color: #FFFFFF;
 }
+
 main h1 {
   font-size: 60px;
   margin-bottom: 0;
@@ -46,8 +53,8 @@ main p {
 
 #hello {
   display: flex;
-  justify-content: space-around;
-  margin-bottom: 60px;
+  justify-content: space-between;
+  margin: 80px 108px;
 }
 
 #btns a {
@@ -58,22 +65,42 @@ main p {
   border-radius: 16px;
 }
 
-hr {
-  color: #484848;
+.projects-title {
+  margin-bottom: 80px;
 }
 
-#projects {
-  margin-top: 80px;
+.project {
+  gap: 48px;
 }
 
-.project-1 {
-  width: 400px;
-  height: 400px;
+#projects-section {
+  margin: 80px 108px;
+}
+
+.project-img-space {
+  width: 600px;
+  height: 600px;
   background-color: #1A1A1A;
   border-radius: 12px;
 }
 
-#create-account-screen {
-  width: 350px;
-  padding: auto;
+.project-content {
+  width: 576px;
+  margin-top: 63px;
+}
+
+.year-field, .stack {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project {
+  display: flex;
+}
+.buttons {
+  margin-top: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
