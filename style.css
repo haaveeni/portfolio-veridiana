@@ -61,3 +61,19 @@ main p {
 hr {
   color: #484848;
 }
+
+#projects {
+  margin-top: 80px;
+}
+
+.project-1 {
+  width: 400px;
+  height: 400px;
+  background-color: #1A1A1A;
+  border-radius: 12px;
+}
+
+#create-account-screen {
+  width: 350px;
+  padding: auto;
+}
