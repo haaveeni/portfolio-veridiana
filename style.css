@@ -45,6 +45,7 @@ header nav ul li a:hover {
 main h1 {
   font-size: 60px;
   margin-bottom: 0;
+  display: flex;
 }
 
 section {
@@ -109,6 +110,29 @@ main p {
   justify-content: space-between;
 }
 
-.about-me-content {
+.about-me-content, .my-capabilities-content {
   width: 700px;
+}
+
+.hard-skills, .soft-skills {
+  display: flex;
+  justify-content: space-between;
+  margin: 80px 0;
+
+}
+
+.my-capabilities-content {
+  width: 700px;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.capability-btn {
+  border-radius: 100px;
+  border: solid 1px #484848;
+  padding: 20px 40px;
+  margin-bottom: 16px;
 }
