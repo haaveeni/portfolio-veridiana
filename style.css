@@ -47,6 +47,10 @@ main h1 {
   margin-bottom: 0;
 }
 
+section {
+  margin: 80px 108px;
+}
+
 main p {
   color: #C7C7C7;
 }
@@ -54,7 +58,6 @@ main p {
 #hello {
   display: flex;
   justify-content: space-between;
-  margin: 80px 108px;
 }
 
 #btns a {
@@ -71,11 +74,7 @@ main p {
 
 .project {
   gap: 48px;
-}
-
-#projects-section {
-  margin: 80px 108px;
-}
+} 
 
 .project-img-space {
   width: 600px;
@@ -103,4 +102,13 @@ main p {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+#about-me {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-me-content {
+  width: 700px;
 }
