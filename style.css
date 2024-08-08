@@ -1,0 +1,106 @@
+* {
+  background-color: #000000;
+  color: #FFFFFF;
+  font-family: sans-serif;
+}
+
+hr {
+  border: solid 1px #C7C7C7;
+  width: 100%;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  height: 96px;
+  margin: 24px 60px;
+  align-items: center;
+}
+
+header span {
+  font-size: 32px;
+}
+
+header .menu {
+  margin-left: auto;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+header nav ul li a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #C7C7C7;
+}
+
+header nav ul li a:hover {
+  color: #FFFFFF;
+}
+
+main h1 {
+  font-size: 60px;
+  margin-bottom: 0;
+}
+
+main p {
+  color: #C7C7C7;
+}
+
+#hello {
+  display: flex;
+  justify-content: space-between;
+  margin: 80px 108px;
+}
+
+#btns a {
+  margin-right: 16px;
+}
+
+#hello img {
+  border-radius: 16px;
+}
+
+.projects-title {
+  margin-bottom: 80px;
+}
+
+.project {
+  gap: 48px;
+}
+
+#projects-section {
+  margin: 80px 108px;
+}
+
+.project-img-space {
+  width: 600px;
+  height: 600px;
+  background-color: #1A1A1A;
+  border-radius: 12px;
+}
+
+.project-content {
+  width: 576px;
+  margin-top: 63px;
+}
+
+.year-field, .stack {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project {
+  display: flex;
+}
+.buttons {
+  margin-top: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
