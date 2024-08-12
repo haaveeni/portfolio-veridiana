@@ -183,20 +183,25 @@
     <hr>
 
     <section id="contact">
-      <h2>VAMOS CONVERSAR</h2>
+      <div class="contact-title">
+        <h2>VAMOS CONVERSAR</h2>
+      </div>
 
-      <form action="https://formspree.io/f/xgvwypkj" method="POST">
-        <label for="name">Nome:</label>
-        <input type="text" name="name" id="name" required>
+      <div class="form-area">
+        <form action="https://formspree.io/f/xgvwypkj" method="POST">
+          <label for="name" aria-placeholder="Seu nome">Nome:</label>
+          <input type="text" name="name" id="name" required>
+  
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" required>
+  
+          <label for="message">Mensagem:</label>
+          <textarea name="message" id="message" rows="10" required></textarea>          
+  
+          <button type="submit" id="submit-btn">ENVIAR</button>
 
-        <label for="Email">Email:</label>
-        <input type="email" name="email" id="email" required>
-
-        <label for="subject">Assunto:</label>
-        <input type="text" name="subject" id="subject" required>
-
-        <label for="message">Mensagem:</label>
-        <input type="text" name="message" id="message" required>
+        </form>
+      </div>
     </section>
   </main>
 
