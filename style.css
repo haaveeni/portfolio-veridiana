@@ -39,7 +39,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  color: #FFFFFF;
+  color: #D3E97A;
 }
 
 main h1 {
@@ -149,4 +149,42 @@ main p {
 
 .job-company {
   color: #D3E97A;
+}
+
+#contact {
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-start;
+}
+
+form {
+  width: 700px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #1A1A1A;
+}
+
+#submit-btn {
+  border-radius: 100px;
+  padding: 20px 40px;
+  color: #0A0A0A;
+  background-color: #D3E97A;
+  font-weight: 700;
+}
+
+#submit-btn:hover {
+  cursor: pointer;
+  background-color: #c6e518;
 }
