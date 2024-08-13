@@ -98,11 +98,14 @@ main p {
 .project {
   display: flex;
 }
+
 .buttons {
-  margin-top: 48px;
+  margin-top: 20px;
   display: flex;
-  align-items: center;
+
   justify-content: space-between;
+  flex-wrap: wrap;
+  color: #D3E97A;
 }
 
 #about-me {
@@ -125,16 +128,12 @@ main p {
   width: 700px;
 }
 
-.buttons {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .capability-btn {
   border-radius: 100px;
-  border: solid 1px #484848;
-  padding: 20px 40px;
+  border: solid 1px #D3E97A;
+  padding: 10px 20px;
   margin-bottom: 16px;
+  color: #D3E97A;
 }
 
 .my-experience {
@@ -147,7 +146,7 @@ main p {
   margin-left: auto;
 }
 
-.job-company {
+.job-company, .habilities {
   color: #D3E97A;
 }
 
