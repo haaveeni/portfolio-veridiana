@@ -30,7 +30,7 @@ Informações como: Sobre mim, projetos, hard skills, soft skills, minha experie
 - [x] Baixar currículo
 - [x] Menu interativo
 - [x] Formulário de contato funcional
-- [ ] Scroll to top button
+- [x] Scroll to top button
 
 ---
 
