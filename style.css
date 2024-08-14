@@ -48,7 +48,8 @@ main h1 {
   display: flex;
 }
 
-section, #my-experience {
+section,
+#my-experience {
   margin: 80px 108px;
 }
 
@@ -75,21 +76,19 @@ main p {
 
 .project {
   gap: 48px;
-} 
+}
 
 .project-img-space {
   width: 600px;
-  height: 600px;
-  background-color: #1A1A1A;
-  border-radius: 12px;
+  height: 400px;
 }
 
 .project-content {
   width: 576px;
-  margin-top: 63px;
 }
 
-.year-field, .stack {
+.year-field,
+.stack {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -108,32 +107,16 @@ main p {
   color: #D3E97A;
 }
 
-#about-me {
+#about-me,
+#education {
   display: flex;
   justify-content: space-between;
 }
 
-.about-me-content, .my-capabilities-content, .my-experience-content {
+.about-me-content,
+.my-experience-content,
+.education-content {
   width: 700px;
-}
-
-.hard-skills, .soft-skills {
-  display: flex;
-  justify-content: space-between;
-  margin: 80px 0;
-
-}
-
-.my-capabilities-content {
-  width: 700px;
-}
-
-.capability-btn {
-  border-radius: 100px;
-  border: solid 1px #D3E97A;
-  padding: 10px 20px;
-  margin-bottom: 16px;
-  color: #D3E97A;
 }
 
 .my-experience {
@@ -142,18 +125,19 @@ main p {
   margin: 80px 0;
 }
 
-.my-experience-content {
+.my-experience-content,
+.education-content {
   margin-left: auto;
 }
 
-.job-company, .habilities {
+.job-company {
   color: #D3E97A;
 }
 
 #contact {
   display: flex;
   justify-content: space-between;
-  align-items:flex-start;
+  align-items: flex-start;
 }
 
 form {
@@ -166,7 +150,8 @@ label {
   font-weight: bold;
 }
 
-input, textarea {
+input,
+textarea {
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
