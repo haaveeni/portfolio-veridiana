@@ -4,21 +4,29 @@
   font-family: sans-serif;
 }
 
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
 hr {
-  border: solid 1px #C7C7C7;
+  border: solid 0.1rem #C7C7C7;
   width: 100%;
   margin: 0;
 }
 
 header {
   display: flex;
-  height: 96px;
-  margin: 24px 60px;
+  height: 9.6rem;
+  margin: 2.4rem 6rem;
   align-items: center;
 }
 
 header span {
-  font-size: 32px;
+  font-size: 3.2rem;
 }
 
 header .menu {
@@ -33,7 +41,7 @@ header nav ul {
 }
 
 header nav ul li a {
-  margin: 0 10px;
+  margin: 0 1rem;
   text-decoration: none;
   color: #C7C7C7;
 }
@@ -43,14 +51,13 @@ header nav ul li a:hover {
 }
 
 main h1 {
-  font-size: 60px;
+  font-size: 4rem;
   margin-bottom: 0;
   display: flex;
 }
 
-section,
-#my-experience {
-  margin: 80px 108px;
+section {
+  margin: 4rem 10.8rem;
 }
 
 main p {
@@ -63,28 +70,28 @@ main p {
 }
 
 #btns a {
-  margin-right: 16px;
+  margin-right: 1.6rem;
 }
 
 #hello img {
-  border-radius: 16px;
+  border-radius: 1.6rem;
 }
 
 .projects-title {
-  margin-bottom: 80px;
+  margin-bottom: 8rem;
 }
 
 .project {
-  gap: 48px;
+  gap: 4.8rem;
 }
 
 .project-img-space {
-  width: 600px;
-  height: 400px;
+  width: 60rem;
+  height: 40rem;
 }
 
 .project-content {
-  width: 576px;
+  width: 57.6rem;
 }
 
 .year-field,
@@ -99,7 +106,7 @@ main p {
 }
 
 .buttons {
-  margin-top: 20px;
+  margin-top: 2rem;
   display: flex;
 
   justify-content: space-between;
@@ -118,13 +125,13 @@ main p {
 .my-experience-content,
 .education-content,
 .courses-content {
-  width: 700px;
+  width: 70rem;
 }
 
 .my-experience {
   display: flex;
   justify-content: space-between;
-  margin: 80px 0;
+  margin: 8rem 0;
 }
 
 .my-experience-content,
@@ -147,28 +154,28 @@ main p {
 }
 
 form {
-  width: 700px;
+  width: 70rem;
 }
 
 label {
   display: block;
-  margin-bottom: 5px;
+  margin-bottom: 0.5rem;
   font-weight: bold;
 }
 
 input,
 textarea {
   width: 100%;
-  padding: 10px;
-  margin-bottom: 15px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
   border: none;
-  border-radius: 4px;
+  border-radius: 0.4rem;
   background-color: #1A1A1A;
 }
 
 #submit-btn {
-  border-radius: 100px;
-  padding: 20px 40px;
+  border-radius: 10rem;
+  padding: 2rem 4rem;
   color: #0A0A0A;
   background-color: #D3E97A;
   font-weight: 700;
@@ -182,16 +189,16 @@ textarea {
 #myBtn {
   display: none;
   position: fixed;
-  bottom: 20px;
-  right: 30px;
+  bottom: 2rem;
+  right: 3rem;
   z-index: 99;
   outline: none;
   background-color: #D3E97A;
   color: #1A1A1A;
   cursor: pointer;
-  padding: 20px 40px;
-  border-radius: 100px;
-  font-size: 18px;
+  padding: 2rem 4rem;
+  border-radius: 10rem;
+  font-size: 1.8rem;
 }
 
 #myBtn:hover {
