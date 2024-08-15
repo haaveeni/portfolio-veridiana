@@ -16,12 +16,12 @@
 
     <div class="menu">
       <nav>
-        <ul>
-          <li><a href="#projects">Projetos</a></li>
-          <li><a href="#about-me">Sobre mim</a></li>
-          <li><a href="#education">Educação</a></li>
-          <li><a href="#my-experience">Minha jornada</a></li>
-          <li><a href="#contact">Contato</a></li>
+        <ul class="unorder-menu">
+          <li><a href="#projects" class="menu-link">Projetos</a></li>
+          <li><a href="#about-me" class="menu-link">Sobre mim</a></li>
+          <li><a href="#education" class="menu-link">Educação</a></li>
+          <li><a href="#my-experience" class="menu-link">Minha jornada</a></li>
+          <li><a href="#contact" class="menu-link">Contato</a></li>
         </ul>
       </nav>
 
@@ -31,7 +31,7 @@
   <main>
     <section id="hello">
       <div>
-        <h1>OI, EU SOU A <br /> VERI!</h1>
+        <h1>OI, EU SOU A VERI!</h1>
         <p>Desenvolvedora FrontEnd, apaixonada por transformar ideias<br /> em código, e transformar código
           em sites acessíveis e amigáveis.</p>
         <div id="btns">
@@ -69,65 +69,58 @@
 
     <section id="education">
       <div class="education-title">
-        <h2>FORMAÇÃO <br />ACADÊMICA</h2>
+        <h2>EDUCAÇÃO</h2>
       </div>
       <div class="education-content">
-        <h3 class="education-title">GRADUAÇÃO - ANÁLISE E DESENVOLVIMENTO DE SISTEMAS</h3>
+        <div class="education-title">
+          <h2>GRADUAÇÃO</h2>
+        </div>
+        <h3 class="education-title">ANÁLISE E DESENVOLVIMENTO DE SISTEMAS</h3>
         <span class="highlithed-text">UNIP</span>
         <p class="period">Janeiro de 2020 a Dezembro de 2021</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita esse doloremque odit minus veritatis
-          reiciendis dicta perspiciatis dolore error iure illo, dolores quod, sit quaerat, consequatur voluptatem
-          tempora dignissimos soluta!</p>
+
+        <hr>
+        <div class="education-title">
+          <h2>CURSOS</h2>
+        </div>
+        <div class="courses-content">
+          <h3 class="courses-title">FRONTEND EM REACT</h3>
+          <span class="highlithed-text">ADA TECH</span>
+          <p class="period">Julho de 2024</p>
+          <p>React por meio da exposição dos seus conceitos fundamentais aliada a projetos práticos que exploram e
+            aprofundam cada um desses conceitos.</p>
+          <p>React, componentes em classe, componentes funcionais e hooks, styled components, redux, testes e
+            deployment.
+          </p>
+
+          <hr>
+          <h3 class="courses-title">NLW JOURNEY - REACTJS</h3>
+          <span class="highlithed-text">RocketSeat</span>
+          <p class="period">Julho de 2024</p>
+          <p>Desenvolvimento de uma aplicação front-end em ReactJS, aplicação dos conceitos de Propriedades,
+            Estados e Componentes,tipagem com Typescript,tooling com Vite, interface responsiva com TailwindCSS, consumo
+            de API Node.js, picker de calendário.</p>
+          <hr>
+
+          <h3 class="courses-title">FRONTEND</h3>
+          <span class="highlithed-text">ADA TECH</span>
+          <p class="period">Julho de 2024</p>
+          <p>HTML, CSS, Lógica de Programação, Javascript, Angular.</p>
+        </div>
       </div>
     </section>
 
     <hr>
 
-    <section id="courses">
-      <div class="education-title">
-        <h2>CURSOS</h2>
-      </div>
-
-      <div class="courses-content">
-        <h3 class="courses-title">FRONTEND EM REACT</h3>
-        <span class="highlithed-text">ADA TECH</span>
-        <p class="period">Julho de 2024</p>
-        <p>React por meio da exposição dos seus conceitos fundamentais aliada a projetos práticos que exploram e
-          aprofundam cada um desses conceitos.</p>
-        <p>React, componentes em classe, componentes funcionais e hooks, styled components, redux, testes e deployment.
-        </p>
-
-        <hr>
-        <h3 class="courses-title">NLW JOURNEY - REACTJS</h3>
-        <span class="highlithed-text">RocketSeat</span>
-        <p class="period">Julho de 2024</p>
-        <p>Desenvolvimento de uma aplicação front-end em ReactJS, aplicação dos conceitos de Propriedades,
-          Estados e Componentes,tipagem com Typescript,tooling com Vite, interface responsiva com TailwindCSS, consumo
-          de API Node.js, picker de calendário.</p>
-
-
-        <hr>
-
-        <h3 class="courses-title">FRONTEND</h3>
-        <span class="highlithed-text">ADA TECH</span>
-        <p class="period">Julho de 2024</p>
-        <p>HTML, CSS, Lógica de Programação, Javascript, Angular.</p>
-        <hr>
-      </div>
-    </section>
-
-    <hr>
-
-    <section id="projects-section">
+    <section id="projects">
       <div class="projects-title">
         <h2>PROJETOS</h2>
-        <p>Aqui estão selecionados alguns dos meus projetos.</p>
       </div>
 
       <div class="projects-area">
         <div class="project">
           <div class="project-img-space">
-
+            <img src="" alt="">
           </div>
           <div class="project-data">
 
@@ -164,42 +157,40 @@
           </div>
         </div>
       </div>
-
     </section>
 
     <hr>
 
-    <section id="my-experience">
-      <div class="my-experience-title">
+    <section id="my-journey">
+      <div class="my-journey-title">
         <h2>MINHA JORNADA</h2>
       </div>
-
-      <div class="my-experience-content">
-        <h3 class="job-title">Me preparando pra voltar pro mercado!</h3>
+      <div class="my-journey-content">
+        <h3 class="job-title">Me preparando pra voltar pro mercado! 👩🏻‍💻📚</h3>
         <p class="period">2024</p>
         <p>Após um tratamento contra o câncer de sucesso, voltei a ativa, fazendo cursos, revisando conteúdos como:
           versionamento de código, HTML, CSS, JavaScript, e aprendendo conceitos novos como: React, TailwindCSS, etc.
           Também estou participando de vários eventos presenciais das comunidades de tecnologia. </p>
         <hr>
-        <h3 class="job-title">Pausa na carreira para tratamento de câncer</h3>
+        <h3 class="job-title">Pausa na carreira para tratamento de câncer 🎗️</h3>
         <p class="period">2023</p>
         <p>No início de 2023 descobri um câncer de mama, tive que focar totalmente no meu tratamento para acelerar minha
           recuperação. Passei por muitas consultas com diversos especialistas, exames, cirurgia, sessões de
           quimioterapia e radioterapia.</p>
         <hr>
-        <h3 class="job-title">Full Stack Junior</h3>
-        <span class="highlithed-text">Grupo SmartFit - Queima Diária</span>
+        <h3 class="job-title">Full Stack Junior 👩🏻‍💻</h3>
+        <span class="highlithed-text">Grupo SMARTFIT (Queima Diária)</span>
         <p class="period">Março/2022 a Setembro/2022</p>
         <p>Fiz parte da Squad Fast Track, um time Scrum de sustentação do site da plataforma de exercícios Queima
           Diária. Juntamente com o time, resolvi demandas internas (B2C) e externas (B2B), implementando correções de
           código, versionando com Git para o GitHub e documentando a solução no Jira, para mostrar avanços e verbalizar
           entregas.</p>
-        <p>Hard Skills:</p>
+        <p class="highlithed-text">HARD SKILLS:</p>
         <p class="habilities">HTML, CSS, JavaScript, TypeScript, Versionamento de código, Scrum, Jira.</p>
-        <p>Soft-Skills:</p>
+        <p class="highlithed-text">SOFT SKILLS:</p>
         <p class="habilities">Trabalho em equipe, comunicação, empatia pelo usuário.</p>
         <hr>
-        <h3 class="job-title">Transição de carreira</h3>
+        <h3 class="job-title">Transição de carreira 🏛️</h3>
         <p class="period">Maio/2020 a Março/2022</p>
         <p>Período de dedicação total a transição de carreira, fiz minha graduação em Análise e Desenvolvimento de
           Sistemas, fiz diversos cursos de hard skills e soft skills, participei da comunidade em eventos de meetups.
@@ -215,10 +206,9 @@
           assinatura do Prefeito e Secretários. Também colaborei na organização de eventos de onboarding. Quando
           enfrentávamos problemas com o sistema, eu que entrava em contato com o suporte de TI, explicava a situação,
           acompanhava a solução e explicava aos demais colegas.</p>
-        <p>Soft-Skills:</p>
+        <p class="highlithed-text">SOFT-SKILLS:</p>
         <p class="habilities">Comunicação clara, eficaz e empática com diferentes tipos de públicos; organização,
           atenção aos detalhes.</p>
-
       </div>
     </section>
 
@@ -226,19 +216,19 @@
 
     <section id="contact">
       <div class="contact-title">
-        <h2>VAMOS CONVERSAR</h2>
+        <h2>VAMOS<br /> CONVERSAR</h2>
       </div>
 
       <div class="form-area">
         <form action="https://formspree.io/f/xgvwypkj" method="POST">
-          <label for="name" aria-placeholder="Seu nome">Nome:</label>
-          <input type="text" name="name" id="name" required>
+          <label for="name">Nome:</label>
+          <input type="text" name="name" id="name" placeholder="Digite seu nome" required>
 
           <label for="email">Email:</label>
-          <input type="email" name="email" id="email" required>
+          <input type="email" name="email" id="email" placeholder="Digite seu email" required>
 
           <label for="message">Mensagem:</label>
-          <textarea name="message" id="message" rows="10" required></textarea>
+          <textarea name="message" id="message" rows="10" placeholder="Digite sua mensagem" required></textarea>
 
           <button type="submit" id="submit-btn">ENVIAR</button>
 
@@ -251,7 +241,7 @@
 
   </footer>
 
-  <button onclick="topFunction()" id="myBtn" title="Go to top">Voltar ao topo</button>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Voltar ao topo ↑</button>
 
   <script src="scroll-to-top-btn.js"></script>
 </body>
