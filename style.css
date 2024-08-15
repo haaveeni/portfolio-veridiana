@@ -1,7 +1,15 @@
 * {
-  background-color: #000000;
-  color: #FFFFFF;
+  color: var(--primary-color);
   font-family: sans-serif;
+}
+
+:root {
+  --primary-color: #FFFFFF;
+  --secondary-color: #C7C7C7;
+  --tertiary-color: #D3E97A;
+  --quartenary--color: #c6e518;
+  --quinary-color: #1A1A1A;
+  background-color: #000000;
 }
 
 html {
@@ -12,61 +20,66 @@ body {
   font-size: 1.6rem;
 }
 
+hr,
+.menu-link:hover,
+main p {
+  color: var(--secondary-color);
+}
+
 hr {
-  border: solid 0.1rem #C7C7C7;
-  width: 100%;
-  margin: 0;
+  border: solid 0.1rem;
+}
+
+header,
+.unorder-menu,
+.project {
+  display: flex;
 }
 
 header {
-  display: flex;
-  height: 9.6rem;
-  margin: 2.4rem 6rem;
-  align-items: center;
+  height: 10rem;
+  margin: 0 10.8rem;
 }
 
 header span {
-  font-size: 3.2rem;
+  font-size: 3rem;
 }
 
-header .menu {
+.menu,
+.my-journey-content {
   margin-left: auto;
 }
 
-header nav ul {
+.unorder-menu {
   list-style: none;
-  display: flex;
-  padding: 0;
-  margin: 0;
 }
 
-header nav ul li a {
+.menu-link,
+.highlithed-text {
+  color: var(--tertiary-color);
+}
+
+
+.menu-link {
   margin: 0 1rem;
   text-decoration: none;
-  color: #C7C7C7;
-}
-
-header nav ul li a:hover {
-  color: #D3E97A;
 }
 
 main h1 {
   font-size: 4rem;
-  margin-bottom: 0;
-  display: flex;
 }
 
-section {
+#hello,
+#about-me,
+#education,
+#projects,
+#contact,
+#my-journey {
   margin: 4rem 10.8rem;
 }
 
 main p {
-  color: #C7C7C7;
-}
-
-#hello {
-  display: flex;
-  justify-content: space-between;
+  line-height: 1.5;
 }
 
 #btns a {
@@ -75,10 +88,6 @@ main p {
 
 #hello img {
   border-radius: 1.6rem;
-}
-
-.projects-title {
-  margin-bottom: 8rem;
 }
 
 .project {
@@ -91,75 +100,46 @@ main p {
 }
 
 .project-content {
-  width: 57.6rem;
+  width: 58rem;
 }
 
+header,
 .year-field,
 .stack {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
-}
-
-.project {
-  display: flex;
-}
-
-.buttons {
-  margin-top: 2rem;
-  display: flex;
-
-  justify-content: space-between;
-  flex-wrap: wrap;
-  color: #D3E97A;
 }
 
 #about-me,
 #education,
-#courses {
+#hello,
+#contact,
+.buttons,
+.year-field,
+.stack {
   display: flex;
   justify-content: space-between;
+}
+
+.buttons {
+  margin-top: 2rem;
+  flex-wrap: wrap;
 }
 
 .about-me-content,
-.my-experience-content,
+.my-journey-content,
 .education-content,
-.courses-content {
+.courses-content,
+form {
   width: 70rem;
-}
-
-.my-experience {
-  display: flex;
-  justify-content: space-between;
-  margin: 8rem 0;
-}
-
-.my-experience-content,
-.education-content {
-  margin-left: auto;
-}
-
-.highlithed-text {
-  color: #D3E97A;
 }
 
 .period {
   color: #FFFFFF;
 }
 
-#contact {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-
-form {
-  width: 70rem;
-}
-
 label {
   display: block;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
   font-weight: bold;
 }
 
@@ -170,20 +150,21 @@ textarea {
   margin-bottom: 1.5rem;
   border: none;
   border-radius: 0.4rem;
-  background-color: #1A1A1A;
+  background-color: var(--quinary-color);
 }
 
 #submit-btn {
   border-radius: 10rem;
   padding: 2rem 4rem;
-  color: #0A0A0A;
-  background-color: #D3E97A;
+  color: var(--quinary-color);
+  background-color: var(--tertiary-color);
   font-weight: 700;
 }
 
-#submit-btn:hover {
+#submit-btn:hover,
+#myBtn:hover {
   cursor: pointer;
-  background-color: #c6e518;
+  background-color: var(--quartenary--color);
 }
 
 #myBtn {
@@ -193,14 +174,9 @@ textarea {
   right: 3rem;
   z-index: 99;
   outline: none;
-  background-color: #D3E97A;
-  color: #1A1A1A;
-  cursor: pointer;
-  padding: 2rem 4rem;
+  background-color: var(--tertiary-color);
+  color: var(--quinary-color);
+  padding: 1rem 2rem;
   border-radius: 10rem;
   font-size: 1.8rem;
-}
-
-#myBtn:hover {
-  background-color: #c6e518;
 }
