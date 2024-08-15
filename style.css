@@ -108,14 +108,16 @@ main p {
 }
 
 #about-me,
-#education {
+#education,
+#courses {
   display: flex;
   justify-content: space-between;
 }
 
 .about-me-content,
 .my-experience-content,
-.education-content {
+.education-content,
+.courses-content {
   width: 700px;
 }
 
@@ -130,8 +132,12 @@ main p {
   margin-left: auto;
 }
 
-.job-company {
+.highlithed-text {
   color: #D3E97A;
+}
+
+.period {
+  color: #FFFFFF;
 }
 
 #contact {
