@@ -91,16 +91,15 @@ main p {
 }
 
 .project {
-  gap: 4.8rem;
-}
-
-.project-img-space {
-  width: 60rem;
-  height: 40rem;
+  margin-bottom: 60px;
 }
 
 .project-content {
   width: 58rem;
+}
+
+.project-img-space {
+  width: 600px;
 }
 
 header,
