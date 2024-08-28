@@ -91,15 +91,22 @@ main p {
 }
 
 .project {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 60px;
+  gap: 50px;
 }
 
 .project-content {
-  width: 58rem;
+  width: 50rem;
 }
 
-.project-img-space {
+.project-img {
+  margin: auto;
   width: 600px;
+  border: 1px solid white;
+  border-radius: 5px;
 }
 
 header,
