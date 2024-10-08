@@ -1,20 +1,20 @@
 # <p align="center">📁 Portfolio</p>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/haaveeni/portfolio-veridiana?color=%23b21104">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/haaveeni/nlw-pocket-js-iniciante?color=brightgreen">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/haaveeni%2Fportfolio-veridiana?color=%23b21104">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/haaveeni%2Fnlw-pocket-js-iniciante?color=brightgreen">
   
-  <a href="https://github.com/haaveeni/portfolio-veridiana/commits/main">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/haaveeni/portfolio-veridiana?color=%23b21104">
+  <a href="https://github.com/haaveeni/nlw-pocket-js-iniciante/commits/main">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/haaveeni/nlw-pocket-js-iniciante?color=brightgreen">
   </a>
   
    <a href="">
-    <img alt="Feito pela Veridiana Lucena" src="https://img.shields.io/badge/feito%20por%20-Veridiana-b21104">
+    <img alt="Feito pela Veridiana Lucena" src="https://img.shields.io/badge/feito%20por%20-Veridiana-brightgreen">
    </a>
 
 <p align="center">
-	<img alt="Status Em Desenvolvimento" src="https://img.shields.io/badge/STATUS-EM%20DESENVOLVIMENTO-green">
+	<img alt="Status Entregue" src="https://img.shields.io/badge/STATUS-%20EM%20DESENVOLVIMENTO-brightgreen">
 <!-- 	<img alt="Status Concluído" src="https://img.shields.io/badge/STATUS-CONCLU%C3%8DDO-brightgreen"> -->
 </p>
 
@@ -65,9 +65,10 @@ Agradeço a <a href="https://www.figma.com/@sumn2u">Suman Kunwar</a>, por ter di
 ----
 
 ## 👩🏻 Autora
-
-<a href="https://www.linkedin.com/in/veridiana-lucena/">
- <img src="https://media.licdn.com/dms/image/D4D03AQE7TU2xzZdMtQ/profile-displayphoto-shrink_200_200/0/1715875083059?e=1727308800&v=beta&t=IMNulLJ8nfCxPci-BR6WRLSwNtphIVhohpEqlGyt9QI" width="100px;" alt=""/>
- <br />
- <b>Veridiana Lucena de Marchi</b></a>
- <br />
+ <img src="https://media.licdn.com/dms/image/v2/D4D03AQGC9i8Q8qKbgg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1726935427851?e=1733356800&v=beta&t=Pdx08MLdiWHzKb7KbmntsHwslsudDY3TazoZ0K2Tzyg" width="100px;" alt=""/><br>
+ <a href="https://www.linkedin.com/in/veridiana-lucena/">Linkedin</a>
+# Veridiana Lucena de Marchi
+### Desenvolvedora Front-End Júnior
+Graduada em Análise e Desenvolvimento de Sistemas, com forte experiência em HTML, CSS, JavaScript, React, Figma.
+Experiência em Metodologias Ágeis: Scrum e Kanban.
+Ferramentas como Jira, Confluence, Slack, Git e GitHub.
